@@ -1,0 +1,546 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+</head>
+
+<body>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <div class="nav-brand">
+                <i class="fas fa-network-wired"></i>
+                <span>NetworkMan</span>
+            </div>
+
+            <div class="nav-menu" id="nav-menu">
+                <a href="#home" class="nav-link active">Home</a>
+                <a href="#about" class="nav-link">About</a>
+                <a href="#experience" class="nav-link">Experience</a>
+                <a href="#skills" class="nav-link">Skills</a>
+                <a href="#certifications" class="nav-link">Certifications</a>
+                <a href="#projects" class="nav-link">Projects</a>
+                <a href="#contact" class="nav-link">Contact</a>
+            </div>
+
+            <div class="nav-controls">
+                <button class="theme-toggle" id="theme-toggle">
+                    <i class="fas fa-moon"></i>
+                </button>
+                <button class="mobile-menu-toggle" id="mobile-menu-toggle">
+                    <i class="fas fa-bars"></i>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h1 class="hero-title">
+                        Hello, I'm
+                        <span class="text-primary">Khaled Mohamed</span>
+                    </h1>
+                    <p class="hero-subtitle">
+                        Designing robust, secure, and scalable network infrastructures for the digital age
+                    </p>
+                    <div class="hero-buttons">
+                        <a href="#projects" class="btn btn-primary">View My Work</a>
+                        <a href="#contact" class="btn btn-outline">Get In Touch</a>
+                    </div>
+                    <div class="hero-info">
+                        <div class="info-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span>Egypt, Cairo</span>
+                        </div>
+                        <div class="info-item">
+                            <i class="fas fa-envelope"></i>
+                            <span>khamed.mohamed2030@gmail.com</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="hero-image">
+                    <div class="image-container">
+                        <img src="./images/image.jpg" alt="Network Engineer" class="profile-image">
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- <div class="scroll-indicator">
+            <a href="#about"><i class="fas fa-chevron-down"></i></a>
+        </div> -->
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">About Me</h2>
+                <p class="section-subtitle">
+                    Passionate Network Engineer with 3+ years of experience in designing, implementing, and maintaining
+                    enterprise-level network infrastructures. Specialized in network security, routing protocols, and
+                    emerging
+                    technologies.
+                </p>
+            </div>
+
+            <div class="about-grid">
+                <div class="about-card">
+                    <div class="card-icon">
+                        <i class="fas fa-network-wired"></i>
+                    </div>
+                    <h3>Network Design</h3>
+                    <p>Expert in designing scalable and resilient network architectures for enterprises of all sizes.
+                    </p>
+                </div>
+
+                <div class="about-card">
+                    <div class="card-icon">
+                        <i class="fas fa-shield-alt"></i>
+                    </div>
+                    <h3>Security Focus</h3>
+                    <p>Specialized in implementing comprehensive security measures to protect network infrastructure.
+                    </p>
+                </div>
+
+                <div class="about-card">
+                    <div class="card-icon">
+                        <i class="fas fa-server"></i>
+                    </div>
+                    <h3>Infrastructure</h3>
+                    <p>Experienced in managing complex data center networks and cloud infrastructure integration.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="experience">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Professional Experience</h2>
+                <p class="section-subtitle">My journey in network engineering across different organizations</p>
+            </div>
+
+            <div class="experience-timeline">
+                <div class="experience-item">
+                    <div class="experience-card">
+                        <div class="experience-header">
+                            <div class="experience-info">
+                                <h3 class="position">Senior Network Engineer</h3>
+                                <h4 class="company">TechCorp Solutions</h4>
+                            </div>
+                            <span class="duration">2022 - Present</span>
+                        </div>
+                        <ul class="responsibilities">
+                            <li>Designed and implemented enterprise network infrastructure for 500+ users</li>
+                            <li>Managed Cisco and Juniper routing and switching equipment</li>
+                            <li>Led network security initiatives reducing vulnerabilities by 40%</li>
+                            <li>Mentored junior engineers and conducted technical training sessions</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="experience-item">
+                    <div class="experience-card">
+                        <div class="experience-header">
+                            <div class="experience-info">
+                                <h3 class="position">Network Engineer</h3>
+                                <h4 class="company">DataFlow Networks</h4>
+                            </div>
+                            <span class="duration">2021 - 2022</span>
+                        </div>
+                        <ul class="responsibilities">
+                            <li>Configured and maintained WAN/LAN networks across multiple sites</li>
+                            <li>Implemented VPN solutions for remote workforce</li>
+                            <li>Performed network troubleshooting and optimization</li>
+                            <li>Collaborated with security team on firewall configurations</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="experience-item">
+                    <div class="experience-card">
+                        <div class="experience-header">
+                            <div class="experience-info">
+                                <h3 class="position">Junior Network Engineer</h3>
+                                <h4 class="company">ConnectIT Services</h4>
+                            </div>
+                            <span class="duration">2020 - 2021</span>
+                        </div>
+                        <ul class="responsibilities">
+                            <li>Assisted in network monitoring and maintenance tasks</li>
+                            <li>Configured network devices and performed cable management</li>
+                            <li>Provided technical support for network-related issues</li>
+                            <li>Documented network configurations and procedures</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Technical Skills</h2>
+                <p class="section-subtitle">Core competencies in network engineering and infrastructure management</p>
+            </div>
+
+            <div class="skills-grid">
+                <div class="skill-card">
+                    <div class="skill-header">
+                        <div class="skill-icon">
+                            <i class="fas fa-network-wired"></i>
+                        </div>
+                        <div class="skill-info">
+                            <h3>Network Configuration</h3>
+                            <span class="skill-level">95% Proficiency</span>
+                        </div>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="skill-progress" data-width="95"></div>
+                    </div>
+                </div>
+
+                <div class="skill-card">
+                    <div class="skill-header">
+                        <div class="skill-icon">
+                            <i class="fas fa-server"></i>
+                        </div>
+                        <div class="skill-info">
+                            <h3>Cisco / Juniper</h3>
+                            <span class="skill-level">90% Proficiency</span>
+                        </div>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="skill-progress" data-width="90"></div>
+                    </div>
+                </div>
+
+                <div class="skill-card">
+                    <div class="skill-header">
+                        <div class="skill-icon">
+                            <i class="fas fa-shield-alt"></i>
+                        </div>
+                        <div class="skill-info">
+                            <h3>Firewall Management</h3>
+                            <span class="skill-level">88% Proficiency</span>
+                        </div>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="skill-progress" data-width="88"></div>
+                    </div>
+                </div>
+
+                <div class="skill-card">
+                    <div class="skill-header">
+                        <div class="skill-icon">
+                            <i class="fas fa-globe"></i>
+                        </div>
+                        <div class="skill-info">
+                            <h3>VPN Setup</h3>
+                            <span class="skill-level">85% Proficiency</span>
+                        </div>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="skill-progress" data-width="85"></div>
+                    </div>
+                </div>
+
+                <div class="skill-card">
+                    <div class="skill-header">
+                        <div class="skill-icon">
+                            <i class="fas fa-lock"></i>
+                        </div>
+                        <div class="skill-info">
+                            <h3>Network Security</h3>
+                            <span class="skill-level">92% Proficiency</span>
+                        </div>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="skill-progress" data-width="92"></div>
+                    </div>
+                </div>
+
+                <div class="skill-card">
+                    <div class="skill-header">
+                        <div class="skill-icon">
+                            <i class="fas fa-wifi"></i>
+                        </div>
+                        <div class="skill-info">
+                            <h3>Routing and Switching</h3>
+                            <span class="skill-level">94% Proficiency</span>
+                        </div>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="skill-progress" data-width="94"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Certifications Section -->
+    <section id="certifications" class="certifications">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Certifications</h2>
+                <p class="section-subtitle">Industry-recognized certifications validating my expertise</p>
+            </div>
+
+            <div class="certifications-grid">
+                <div class="cert-card">
+                    <div class="cert-icon cisco">
+                        <i class="fa-solid fa-certificate"></i>
+                    </div>
+                    <h3>CCNA</h3>
+                    <p>Cisco</p>
+                    <span class="cert-year">2023</span>
+                </div>
+
+                <div class="cert-card">
+                    <div class="cert-icon cisco-pro">
+                        <i class="fa-solid fa-certificate"></i>
+                    </div>
+                    <h3>CCNP</h3>
+                    <p>Cisco</p>
+                    <span class="cert-year">2024</span>
+                </div>
+
+                <div class="cert-card">
+                    <div class="cert-icon comptia">
+                        <i class="fa-solid fa-certificate"></i>
+                    </div>
+                    <h3>CompTIA Network+</h3>
+                    <p>CompTIA</p>
+                    <span class="cert-year">2022</span>
+                </div>
+
+                <div class="cert-card">
+                    <div class="cert-icon cissp">
+                        <i class="fa-solid fa-certificate"></i>
+                    </div>
+                    <h3>CISSP</h3>
+                    <p>ISC²</p>
+                    <span class="cert-year">2024</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Featured Projects</h2>
+                <p class="section-subtitle">Showcasing impactful network engineering projects and achievements</p>
+            </div>
+
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-header">
+                        <h3>Enterprise Network Infrastructure Design</h3>
+                    </div>
+                    <div class="project-content">
+                        <p>Designed and implemented a complete network infrastructure for a 1000+ employee company,
+                            including redundant connections, VLAN segmentation, and comprehensive security measures.</p>
+
+                        <div class="project-outcome">
+                            <strong>Outcome:</strong> Achieved 95% uptime and improved network performance by 45%
+                        </div>
+
+                        <div class="project-technologies">
+                            <span class="tech-tag">Cisco Catalyst</span>
+                            <span class="tech-tag">OSPF</span>
+                            <span class="tech-tag">BGP</span>
+                            <span class="tech-tag">VLAN</span>
+                            <!-- <span class="tech-tag">QoS</span> -->
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-header">
+                        <h3>Network Security Enhancement</h3>
+                    </div>
+                    <div class="project-content">
+                        <p>Led a comprehensive security audit and enhancement project, implementing next-generation
+                            firewalls, intrusion detection systems, and network access control </p>
+
+                        <div class="project-outcome" style="margin-top: 60px;">
+                            <strong>Outcome:</strong> Reduced security incidents by 70% and achieved compliance with
+                            industry standards
+                        </div>
+
+                        <div class="project-technologies">
+                            <span class="tech-tag">Palo Alto</span>
+                            <span class="tech-tag">Splunk</span>
+                            <span class="tech-tag">NAC</span>
+                            <!-- <span class="tech-tag">IDS/IPS</span> -->
+                            <span class="tech-tag">SIEM</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-header">
+                        <h3>Data Center Network Upgrade</h3>
+                    </div>
+                    <div class="project-content">
+                        <p>Managed the complete upgrade of a data center network infrastructure, including migration to
+                            40Gbps backbone and implementation of software-defined networking.</p>
+
+                        <div class="project-outcome">
+                            <strong>Outcome:</strong> Increased bandwidth capacity by 400% with zero downtime during
+                            migration
+                        </div>
+
+                        <div class="project-technologies">
+                            <span class="tech-tag">Juniper QFX</span>
+                            <span class="tech-tag">SDN</span>
+                            <span class="tech-tag">EVPN</span>
+                            <span class="tech-tag">VXLAN</span>
+                            <!-- <span class="tech-tag">Automation</span> -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Contact Me</h2>
+                <p class="section-subtitle">Ready to discuss your network infrastructure needs? Let's connect!</p>
+            </div>
+
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-text">
+                        <h3>Let's Work Together</h3>
+                        <p>I'm always interested in discussing new opportunities, challenging projects, or simply
+                            connecting with fellow network professionals. Feel free to reach out!</p>
+                    </div>
+
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-envelope"></i>
+                            </div>
+                            <div class="contact-detail">
+                                <h4>Email</h4>
+                                <p>khamed.mohamed2030@gmail.com</p>
+                            </div>
+                        </div>
+
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-phone"></i>
+                            </div>
+                            <div class="contact-detail">
+                                <h4>Phone</h4>
+                                <p>+20 109 598 9997</p>
+                            </div>
+                        </div>
+
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-map-marker-alt"></i>
+                            </div>
+                            <div class="contact-detail">
+                                <h4>Location</h4>
+                                <p>Egypt, Cairo</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="social-links">
+                        <a href="https://www.linkedin.com/in/khaled-mohamed-6b534b244/" target="_blank"
+                            class="social-link">
+                            <i class="fab fa-linkedin"></i>
+                            <span>LinkedIn</span>
+                        </a>
+                        <!-- <a href="#" class="social-link">
+                            <i class="fab fa-github"></i>
+                            <span>GitHub</span>
+                        </a> -->
+                        <!-- <a href="#" class="social-link">
+                            <i class="fab fa-twitter"></i>
+                            <span>Twitter</span>
+                        </a> -->
+                        <a href="https://www.facebook.com/khaledmohamed4040" target="_blank" class="social-link">
+                            <i class="fab fa-facebook"></i>
+                            <span>Facebook</span>
+                        </a>
+                        <a href="https://www.instagram.com/khaledmohamed4040?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="
+                            target="_blank" class="social-link">
+                            <i class="fab fa-instagram"></i>
+                            <span>instagram</span>
+                        </a>
+
+
+                    </div>
+                </div>
+
+                <div class="contact-form-container">
+                    <div class="contact-form-card">
+                        <h3>Send a Message</h3>
+                        <p>Fill out the form below and I'll get back to you as soon as possible.</p>
+
+                        <form class="contact-form" id="contact-form">
+                            <div class="form-row">
+                                <div class="form-group">
+                                    <label for="name">Name</label>
+                                    <input type="text" id="name" name="name" required>
+                                </div>
+                                <div class="form-group">
+                                    <label for="email">Email</label>
+                                    <input type="email" id="email" name="email" required>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label for="message">Message</label>
+                                <textarea id="message" name="message" rows="4" required></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-primary btn-full">Send Message</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <i class="fas fa-network-wired"></i>
+                    <span>NetworkMan</span>
+                </div>
+                <div class="footer-text">
+                    <p>&copy; 2025 Network Engineer Portfolio. Built with HTML, CSS, and JavaScript.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <a href="https://wa.me/201095989997" target="_blank" class="whatsapp-link">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
